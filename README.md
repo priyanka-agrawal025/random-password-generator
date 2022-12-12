@@ -9,7 +9,7 @@
 
 + GitHub repository and deployed weboage links are easily accesed via the following links:
     + https://github.com/priyanka-agrawal025
-    + file:///Users/priyankaagrawal/Desktop/bootcamp/random-password-generator/index.html
+    + https://priyanka-agrawal025.github.io/random-password-generator/
 
 ## Usage
 
