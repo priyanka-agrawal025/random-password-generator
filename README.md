@@ -1,4 +1,4 @@
-# random-password-generator
+# Random Password Generator
 ## Refactoring Password Generator code
 
 1. This project was created to practice Web APIs in Javascript and further learn how to make webpages more user friendly.
