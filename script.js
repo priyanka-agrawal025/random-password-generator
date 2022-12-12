@@ -17,9 +17,30 @@ function writePassword(event) {
   var passSpecial = confirm("Should password include SPECIAL CHARACTERS? Click OK for yes and CANCEL for no");
   
   var password = "";
-  for (i = 1; i <= passLength; i++){
-    password += getRandomUpper();
+  for (i = 1; i <= passLength; i += 1){
+    if (passUpper === true) {
+      password += getRandomUpper();
+      i++;
+    } 
+    if (passLower === true) {
+      password += getRandomLower();
+      i++;
+    }
+    if (passNumber === true) {
+      password += getRandomNumber();
+      i++;
+    }
+    if (passSpecial === true) {
+      password += getRandomSymbol();
+      i++;
+    } 
+    if (!passUpper && !passLower && !passNumber && !passSpecial) {
+      password += 
+    }
   }
+
+
+  
 
   
 
@@ -29,6 +50,7 @@ function writePassword(event) {
   passwordText.value = password;
 
 }
+
 
 
 function getRandomUpper() {
@@ -44,7 +66,7 @@ function getRandomNumber() {
 }
  
 function getRandomSymbol() {
-  const symbols = "!@#$%^&*(){}[]=<>/,.";
+  var symbols = "!@#$%^&*(){}[]=<>/,.";
   return symbols[Math.floor(Math.random() * symbols.length)];
 }
 
