@@ -13,7 +13,7 @@
 
 ## Usage
 
-![Webpage](assets/deployed-webpage.png.png)
+![Webpage](assets/deployed-webpage.png)
 
 + Instructions:
     + Click the "generate password" button to begin the process of creating a randomized password
