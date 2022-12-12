@@ -7,15 +7,18 @@
 
 ## Installation
 
-1. GitHub repository and deployed weboage links are easily accesed via the following links:
++ GitHub repository and deployed weboage links are easily accesed via the following links:
+    + https://github.com/priyanka-agrawal025
+    + file:///Users/priyankaagrawal/Desktop/bootcamp/random-password-generator/index.html
 
 ## Usage
 
-![Webpage](assets/webpage-screenshot.png)
+![Webpage](assets/deployed-webpage.png.png)
 
-## Credits
-
-https://github.com/priyanka-agrawal025/my-portfolio-webpage
++ Instructions:
+    + Click the "generate password" button to begin the process of creating a randomized password
+    + Answer all prompts to generate the password
+    + Password should appear in text box once all prompts have been answered
 
 ## License
 
