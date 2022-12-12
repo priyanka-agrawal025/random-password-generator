@@ -35,7 +35,8 @@ function writePassword(event) {
       i++;
     } 
     if (!passUpper && !passLower && !passNumber && !passSpecial) {
-      password += 
+      password += getRandomLower();
+      i++;
     }
   }
 
